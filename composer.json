@@ -1,0 +1,22 @@
+{
+    "name": "Zanjir/Zanjir-php",
+    "description": "Zanjir php",
+    "license": "MIT",
+    "keywords": ["Zanjir", "crypto", "bitcoin", "litecoin", "ethereum", "tron", "dash", "usdt", "payments", "cryptocurrencies"],
+    "homepage": "https://github.com/Zanjir/Zanjir-php",
+    "authors": [
+        {
+            "name": "Zanjir Network",
+            "email": "info@zanjir.network"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Zanjir\\": "Zanjir/"}
+    },
+    "require": {
+    "php": ">=5.5.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
+ 

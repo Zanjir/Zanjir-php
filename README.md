@@ -17,11 +17,11 @@ ext-curl
 composer require zanjir/zanjir-php
 ```
 
-##Create Payment
+## Create Payment
 
 ```php
 <?php
-require 'vendor/autoload.php';
+require 'vendor/autoload.php'; // #Or require 'Zanjir/Zanjir.php';
 $zanjir = new Zanjir\Zanjir();
     $params["amount"] = 1;
     $params["address"] = "OwnWalletAddress";
